@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- 알아보자 1 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
+    <script 
+        src="https://kit.fontawesome.com/7874e0f4f7.js" 
+        crossorigin="anonymous"
+    ></script>
+    <script 
+        src="main.js"
+    ></script>
+    <link 
+        rel="stylesheet" 
+        href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+    >
+    <link 
+        rel="stylesheet" 
+        href="youtube.css"
+    >
+    <title>Youtube Mobile</title>
+</head>
+<body>
+    <!-- header  -->
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">Youtube</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+
+    <!-- Video Player  -->
+    <section class="player">
+        <video controls src="video/chocolate.mp4"></video>
+    </section>
+
+    <div class="InfoAndUpNext">
+        <!-- video information  -->
+        <section class="info">
+            <!-- metadata -->
+            <div class="metadata">
+                <ul class="hashtags">
+                    <script>
+                        print_hashtags();
+                    </script>
+                    <!-- <li>Apple</li>
+                    <li>ApplePay</li>
+                    <li>AppleCard</li> -->
+                </ul>
+                <div class="titleAndButton">
+                    <span class="title">
+                        Apple Card | Chocolate | Apple 
+                    </span>
+                    <button class="moreBtn">
+                        <i class="fas fa-caret-down"></i>
+                    </button>
+                </div>
+                <div class="views">
+                    <span class="views">365 views 1 day ago</span>
+                </div>
+            </div>
+
+            <!-- action  -->
+            <ul class="actions">
+                <li><button><i class="active fas fa-thumbs-up"></i><span> 365</span></button></li>
+                <li><button><i class="fas fa-thumbs-down"></i><span> Bad</span></button></li>
+                <li><button><i class="fas fa-share"></i><span> Share</span></button></li>
+                <li><button><i class="fas fa-plus"></i><span> Add</span></button></li>
+                <li><button><i class="fab fa-font-awesome-flag"></i><span> Report</span></button></li>
+            </ul>
+
+            <!-- channel description -->
+            <div class="channel">
+                <div class="channel-metadata">
+                    <img src="image/apple.jpg" alt="">
+                    <div class="channel-info">
+                        <span class="name">Apple</span>
+                        <span class="subscribers">1M subscribers</span>
+                    </div>
+                </div>
+                <button class="subscribe">subscribe</button>
+            </div>
+        </section>
+
+        <!-- upnext  -->
+        <section class="upNext">
+            <span class="title">Up Next</span>
+            <ul>
+                <li class="item">
+                    <div class="img"><img src="image/escape.jpg" alt=""></div>
+                    <div class="info">
+                        <span class="title">Escape from the Office | Apple at Work</span>
+                        <span class="name">Apple</span>
+                        <span class="views">Views 34M • 2 Months ago</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-caret-down"></i></button>
+                </li>
+                <li class="item">
+                    <div class="img"><img src="image/wfh.jpg" alt=""></div>
+                    <div class="info">
+                        <span class="title">The whole working-from-homething — Apple</span>
+                        <span class="name">Apple</span>
+                        <span class="views">Views 33.6M • 1 Year ago</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-caret-down"></i></button>
+                </li>
+                <li class="item">
+                    <div class="img"><img src="image/underdogs.jpg" alt=""></div>
+                    <div class="info">
+                        <span class="title">Apple at Work — The Underdogs</span>
+                        <span class="name">Apple</span>
+                        <span class="views">Views 9.6M • 3 Years ago</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-caret-down"></i></button>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+
+<!-- 내가 만들었던거 
+<main>
+<div id="video">
+Video
+</div>
+
+<div id="video-info">
+<p id="tag">tags</p>
+<p id="video-title">video title</p>
+<p>upload date & view count</p>
+</div>
+
+<div id="video-action">
+    <button>Good</button>
+    <button>Bad</button>
+    <button>Report</button>
+    <button>Share</button>
+    <button>Save</button>
+</div>
+
+<div id="studio">
+    <img src="">Studio name & subs number
+    <button id="button-subs">Subscription</button>
+</div>
+
+<div id="up-next">
+    next videos
+</div>
+</main>
+ -->
+</body>
+</html>
